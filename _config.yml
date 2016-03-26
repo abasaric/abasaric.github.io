@@ -1,15 +1,15 @@
-name: Wangana
+name: Testing Wangana theme
 description:  Jekyll theme
 
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
 
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-url: https://nadjetey.github.io/wangana
+url: https://abasaric.github.io
 permalink: /:year/:month/:title/
 owner:
     name: #
@@ -20,4 +20,4 @@ owner:
 ga_id: #
 ga_username: #
 
-timezone: Africa/Accra
+timezone: Canada/Toronto
