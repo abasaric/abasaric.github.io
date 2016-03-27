@@ -13,6 +13,10 @@ Test subject 1, from markdown source
 - Sammy Sosa
 - Ken Griffey
 
-hr:  65    # Home runs
-avg: 0.278 # Batting average
-rbi: 147   # Runs Batted In
+hr:
+- Mark McGwire
+# Following node labeled SS
+- &SS Sammy Sosa
+rbi:
+- *SS # Subsequent occurrence
+- Ken Griffey
