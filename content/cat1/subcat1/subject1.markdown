@@ -40,6 +40,7 @@ Indent text by 4 spaces. This way it is recognized as code.
 
 
 You can also create code blocks GitHub-style:  
+
 ```
 def foo
 "hello!"
@@ -48,3 +49,21 @@ end
 
 * Bullet list item 1
 * Bullet list item 2
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+{: rules="groups"}
+
+> A nice blockquote
+
+
+
+> A nice blockquote with an id
+{: #with-an-id}
